@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>金融认知知识库 · 市场看板</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f5f4;
+      --panel: #ffffff;
+      --text: #20251f;
+      --muted: #687066;
+      --line: #dfe3d9;
+      --up: #16734d;
+      --down: #a33b45;
+      --neutral: #6f766d;
+      --soft-up: #e8f3ec;
+      --soft-down: #f6e8e8;
+      --soft-neutral: #ecefeb;
+      font-family: Inter, "SF Pro Text", "Segoe UI", "Microsoft YaHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+    main {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 44px;
+    }
+    header {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .title-row {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      line-height: 1.12;
+      font-weight: 680;
+    }
+    .subtitle {
+      margin: 10px 0 0;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .timestamp {
+      min-width: 220px;
+      text-align: right;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .summary-card, .section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .summary-card {
+      padding: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 112px;
+    }
+    .summary-card p, .eyebrow {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .summary-card strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .signal {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+    }
+    .signal.up { background: var(--soft-up); border-color: #badcc8; }
+    .signal.down { background: var(--soft-down); border-color: #e0bdc0; }
+    .signal.mixed { background: #eef0f5; border-color: #cfd5e5; }
+    .signal.neutral { background: var(--soft-neutral); }
+    .visual {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .section {
+      padding: 18px;
+      margin-top: 18px;
+    }
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 18px;
+      font-weight: 680;
+    }
+    .market-list {
+      display: grid;
+      gap: 10px;
+    }
+    .market-card {
+      min-height: 86px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfbfa;
+    }
+    .market-card h3 {
+      margin: 7px 0 0;
+      font-size: 16px;
+      font-weight: 650;
+    }
+    .metric {
+      text-align: right;
+      min-width: 104px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 20px;
+      font-weight: 720;
+    }
+    .metric span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .market-card.up .metric strong { color: var(--up); }
+    .market-card.down .metric strong { color: var(--down); }
+    .market-card.neutral .metric strong { color: var(--neutral); }
+    .note {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+      margin: 0;
+    }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    @media (max-width: 760px) {
+      main { width: min(100% - 24px, 560px); padding-top: 22px; }
+      .title-row, .summary, .grid { grid-template-columns: 1fr; display: grid; }
+      .timestamp { text-align: left; min-width: 0; }
+      .summary-card { min-height: 94px; }
+      .market-card { align-items: flex-start; }
+      h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="title-row">
+        <div>
+          <h1>金融认知知识库</h1>
+          <p class="subtitle">轻量市场看板，只提供局势底色和真实数据入口。它不替代看盘软件，也不直接给出交易结论。</p>
+        </div>
+        <div class="timestamp">
+          <div>市场日期：2026-06-10</div>
+          <div>数据更新：2026-06-10T11:48:53+00:00</div>
+          <div>页面生成：2026-06-10T12:04:55+00:00</div>
+        </div>
+      </div>
+      <section class="summary">
+        <article class="summary-card">
+          <div>
+            <p>A股局势</p>
+            <strong>分化</strong>
+          </div>
+          <span class="signal mixed" aria-hidden="true"></span>
+        </article>
+        <article class="summary-card">
+          <div>
+            <p>全球参照</p>
+            <strong>偏强</strong>
+          </div>
+          <span class="signal up" aria-hidden="true"></span>
+        </article>
+      </section>
+    </header>
+
+    <img class="visual" src="assets/market-map.svg" alt="市场变化概览">
+
+    <section class="grid">
+      <div class="section">
+        <h2>A股</h2>
+        <div class="market-list">
+          
+      <article class="market-card up">
+        <div>
+          <p class="eyebrow">A股 · 2026-06-10</p>
+          <h3>上证指数</h3>
+        </div>
+        <div class="metric">
+          <strong>+0.86%</strong>
+          <span>3,993.23</span>
+        </div>
+      </article>
+      <article class="market-card up">
+        <div>
+          <p class="eyebrow">A股 · 2026-06-10</p>
+          <h3>深证成指</h3>
+        </div>
+        <div class="metric">
+          <strong>+0.90%</strong>
+          <span>14,954.10</span>
+        </div>
+      </article>
+      <article class="market-card down">
+        <div>
+          <p class="eyebrow">A股 · 2026-06-10</p>
+          <h3>创业板指</h3>
+        </div>
+        <div class="metric">
+          <strong>-2.70%</strong>
+          <span>3,854.79</span>
+        </div>
+      </article>
+        </div>
+      </div>
+      <div class="section">
+        <h2>全球参照</h2>
+        <div class="market-list">
+          
+      <article class="market-card up">
+        <div>
+          <p class="eyebrow">美国 · 2026-06-08</p>
+          <h3>标普500</h3>
+        </div>
+        <div class="metric">
+          <strong>+0.30%</strong>
+          <span>7,405.73</span>
+        </div>
+      </article>
+      <article class="market-card up">
+        <div>
+          <p class="eyebrow">美国 · 2026-06-08</p>
+          <h3>纳斯达克综合指数</h3>
+        </div>
+        <div class="metric">
+          <strong>+0.86%</strong>
+          <span>25,929.66</span>
+        </div>
+      </article>
+      <article class="market-card up">
+        <div>
+          <p class="eyebrow">韩国 · 2026-06-10</p>
+          <h3>韩国综合指数</h3>
+        </div>
+        <div class="metric">
+          <strong>+3.29%</strong>
+          <span>7,730.82</span>
+        </div>
+      </article>
+      <article class="market-card up">
+        <div>
+          <p class="eyebrow">日本 · 2026-06-10</p>
+          <h3>日经225</h3>
+        </div>
+        <div class="metric">
+          <strong>+0.24%</strong>
+          <span>64,179.27</span>
+        </div>
+      </article>
+      <article class="market-card down">
+        <div>
+          <p class="eyebrow">台湾 · 2026-06-10</p>
+          <h3>台湾加权指数</h3>
+        </div>
+        <div class="metric">
+          <strong>-0.64%</strong>
+          <span>43,225.54</span>
+        </div>
+      </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>使用边界</h2>
+      <p class="note">这个页面用于辅助判断市场背景：看共振、分化和风险偏好。具体买卖、盘口、分时和技术细节仍交给专业看盘软件。原始数据见 <a href="data/market_prices.json">market_prices.json</a>。</p>
+    </section>
+  </main>
+</body>
+</html>
