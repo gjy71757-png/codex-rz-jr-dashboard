@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-11T12:56:36+00:00",
+  "generated_at": "2026-06-11T19:21:53+00:00",
   "status": {
-    "last_run_at": "2026-06-11T12:56:35+00:00",
+    "last_run_at": "2026-06-11T19:21:52+00:00",
     "provider": "yahoo_chart",
-    "group": "morning_global",
-    "ok_count": 2,
+    "group": "evening_asia",
+    "ok_count": 6,
     "error_count": 0,
     "errors": []
   },
@@ -50,13 +50,13 @@
       "market": "A股",
       "type": "index",
       "role": "domestic_reference",
-      "close": "3993.22583",
+      "close": "3993.226074",
       "previous_close": "4010.031006",
-      "change": "-16.805176",
-      "change_pct": "-0.419078",
+      "change": "-16.804932",
+      "change_pct": "-0.419072",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-10T14:11:56+00:00",
+      "updated_at": "2026-06-11T19:21:52+00:00",
       "status": "ok",
       "error": ""
     },
@@ -67,30 +67,30 @@
       "market": "A股",
       "type": "index",
       "role": "domestic_reference",
-      "close": "14954.100586",
+      "close": "14954.099609",
       "previous_close": "15268.709961",
-      "change": "-314.609375",
-      "change_pct": "-2.060484",
+      "change": "-314.610352",
+      "change_pct": "-2.060491",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-10T14:11:56+00:00",
+      "updated_at": "2026-06-11T19:21:52+00:00",
       "status": "ok",
       "error": ""
     },
     {
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "symbol": "399006.SZ",
       "name": "创业板指",
       "market": "A股",
       "type": "index",
       "role": "domestic_reference",
-      "close": "3854.793457",
-      "previous_close": "3961.7493",
-      "change": "-106.955843",
-      "change_pct": "-2.699713",
+      "close": "3811.246094",
+      "previous_close": "3854.7935",
+      "change": "-43.547406",
+      "change_pct": "-1.129695",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-10T14:11:56+00:00",
+      "updated_at": "2026-06-11T19:21:52+00:00",
       "status": "ok",
       "error": ""
     },
@@ -107,7 +107,7 @@
       "change_pct": "-4.521595",
       "currency": "KRW",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-10T14:11:56+00:00",
+      "updated_at": "2026-06-11T19:21:52+00:00",
       "status": "ok",
       "error": ""
     },
@@ -124,7 +124,7 @@
       "change_pct": "-1.891506",
       "currency": "JPY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-10T14:11:56+00:00",
+      "updated_at": "2026-06-11T19:21:52+00:00",
       "status": "ok",
       "error": ""
     },
@@ -141,13 +141,13 @@
       "change_pct": "-3.308178",
       "currency": "TWD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-10T14:11:56+00:00",
+      "updated_at": "2026-06-11T19:21:52+00:00",
       "status": "ok",
       "error": ""
     }
   ],
   "freshness": {
-    "latest_update": "2026-06-11T12:56:35+00:00",
-    "latest_market_date": "2026-06-10"
+    "latest_update": "2026-06-11T19:21:52+00:00",
+    "latest_market_date": "2026-06-11"
   }
 }
