@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T10:39:16+00:00",
+  "generated_at": "2026-06-14T15:29:19+00:00",
   "status": {
-    "last_run_at": "2026-06-14T10:39:15+00:00",
+    "last_run_at": "2026-06-14T15:29:18+00:00",
     "provider": "yahoo_chart",
-    "group": "morning_global",
-    "ok_count": 2,
+    "group": "evening_asia",
+    "ok_count": 6,
     "error_count": 0,
     "errors": []
   },
@@ -56,7 +56,7 @@
       "change_pct": "1.116074",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-13T15:21:14+00:00",
+      "updated_at": "2026-06-14T15:29:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -73,7 +73,7 @@
       "change_pct": "0.750268",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-13T15:21:14+00:00",
+      "updated_at": "2026-06-14T15:29:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -85,12 +85,12 @@
       "type": "index",
       "role": "domestic_reference",
       "close": "3830.353027",
-      "previous_close": "3811.246",
-      "change": "19.107027",
-      "change_pct": "0.501333",
+      "previous_close": "3811.25",
+      "change": "19.103027",
+      "change_pct": "0.501227",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-13T15:21:14+00:00",
+      "updated_at": "2026-06-14T15:29:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -107,7 +107,7 @@
       "change_pct": "4.632563",
       "currency": "KRW",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-13T15:21:14+00:00",
+      "updated_at": "2026-06-14T15:29:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -124,7 +124,7 @@
       "change_pct": "2.807297",
       "currency": "JPY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-13T15:21:14+00:00",
+      "updated_at": "2026-06-14T15:29:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -141,13 +141,13 @@
       "change_pct": "2.362899",
       "currency": "TWD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-13T15:21:14+00:00",
+      "updated_at": "2026-06-14T15:29:18+00:00",
       "status": "ok",
       "error": ""
     }
   ],
   "freshness": {
-    "latest_update": "2026-06-14T10:39:15+00:00",
+    "latest_update": "2026-06-14T15:29:18+00:00",
     "latest_market_date": "2026-06-12"
   }
 }
