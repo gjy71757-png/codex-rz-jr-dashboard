@@ -29,9 +29,9 @@
   </g>
   <g>
     <rect x="476" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="490" y="148" width="76" height="32" rx="6" fill="#1f8a5b" opacity="0.82"/>
+    <rect x="490" y="74" width="76" height="106" rx="6" fill="#1f8a5b" opacity="0.82"/>
     <text x="528.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">创业板指</text>
-    <text x="528.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+0.50%</text>
+    <text x="528.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+5.30%</text>
   </g>
   <g>
     <rect x="590" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
