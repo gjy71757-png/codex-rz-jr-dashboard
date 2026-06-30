@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T17:59:15+00:00",
+  "generated_at": "2026-06-30T10:44:20+00:00",
   "status": {
-    "last_run_at": "2026-06-29T17:59:14+00:00",
+    "last_run_at": "2026-06-30T10:44:18+00:00",
     "provider": "yahoo_chart",
-    "group": "evening_asia",
-    "ok_count": 6,
+    "group": "morning_global",
+    "ok_count": 2,
     "error_count": 0,
     "errors": []
   },
@@ -16,13 +16,13 @@
       "market": "美国",
       "type": "index",
       "role": "global_reference",
-      "close": "7403.759766",
+      "close": "7440.430176",
       "previous_close": "7354.02002",
-      "change": "49.739746",
-      "change_pct": "0.676361",
+      "change": "86.410156",
+      "change_pct": "1.175006",
       "currency": "USD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-29T14:36:37+00:00",
+      "updated_at": "2026-06-30T10:44:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -33,13 +33,13 @@
       "market": "美国",
       "type": "index",
       "role": "global_reference",
-      "close": "25556.253906",
+      "close": "25820.140625",
       "previous_close": "25297.619141",
-      "change": "258.634766",
-      "change_pct": "1.022368",
+      "change": "522.521484",
+      "change_pct": "2.065497",
       "currency": "USD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-06-29T14:36:37+00:00",
+      "updated_at": "2026-06-30T10:44:18+00:00",
       "status": "ok",
       "error": ""
     },
@@ -147,7 +147,7 @@
     }
   ],
   "freshness": {
-    "latest_update": "2026-06-29T17:59:14+00:00",
+    "latest_update": "2026-06-30T10:44:18+00:00",
     "latest_market_date": "2026-06-29"
   }
 }
