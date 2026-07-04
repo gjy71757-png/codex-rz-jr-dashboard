@@ -35,15 +35,15 @@
   </g>
   <g>
     <rect x="590" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="604" y="74" width="76" height="106" rx="6" fill="#b84a52" opacity="0.82"/>
+    <rect x="604" y="74" width="76" height="106" rx="6" fill="#1f8a5b" opacity="0.82"/>
     <text x="642.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">韩国综指</text>
-    <text x="642.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-7.89%</text>
+    <text x="642.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+5.76%</text>
   </g>
   <g>
     <rect x="704" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="718" y="100" width="76" height="80" rx="6" fill="#b84a52" opacity="0.82"/>
+    <rect x="718" y="124" width="76" height="56" rx="6" fill="#1f8a5b" opacity="0.82"/>
     <text x="756.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">日经225</text>
-    <text x="756.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-2.47%</text>
+    <text x="756.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+1.47%</text>
   </g>
   <g>
     <rect x="818" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
