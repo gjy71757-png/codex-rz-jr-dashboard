@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-04T12:48:41+00:00",
+  "generated_at": "2026-07-04T23:52:28+00:00",
   "status": {
-    "last_run_at": "2026-07-04T12:48:40+00:00",
+    "last_run_at": "2026-07-04T23:52:26+00:00",
     "provider": "yahoo_chart",
-    "group": "evening_asia",
-    "ok_count": 6,
+    "group": "morning_global",
+    "ok_count": 2,
     "error_count": 0,
     "errors": []
   },
@@ -22,7 +22,7 @@
       "change_pct": "0.000137",
       "currency": "USD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-07-04T08:14:50+00:00",
+      "updated_at": "2026-07-04T23:52:26+00:00",
       "status": "ok",
       "error": ""
     },
@@ -39,7 +39,7 @@
       "change_pct": "-0.79631",
       "currency": "USD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-07-04T08:14:50+00:00",
+      "updated_at": "2026-07-04T23:52:26+00:00",
       "status": "ok",
       "error": ""
     },
@@ -147,7 +147,7 @@
     }
   ],
   "freshness": {
-    "latest_update": "2026-07-04T12:48:40+00:00",
+    "latest_update": "2026-07-04T23:52:26+00:00",
     "latest_market_date": "2026-07-03"
   }
 }
