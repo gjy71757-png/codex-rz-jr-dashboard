@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-07-09T11:56:15+00:00",
+  "generated_at": "2026-07-09T23:57:03+00:00",
   "status": {
-    "last_run_at": "2026-07-09T11:56:12+00:00",
+    "last_run_at": "2026-07-09T23:57:02+00:00",
     "provider": "yahoo_chart",
-    "group": "evening_asia",
-    "ok_count": 6,
+    "group": "morning_global",
+    "ok_count": 2,
     "error_count": 0,
     "errors": []
   },
   "markets": [
     {
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "symbol": "^GSPC",
       "name": "标普500",
       "market": "美国",
       "type": "index",
       "role": "global_reference",
-      "close": "7482.709961",
-      "previous_close": "7503.850098",
-      "change": "-21.140137",
-      "change_pct": "-0.281724",
+      "close": "7543.640137",
+      "previous_close": "7482.709961",
+      "change": "60.930176",
+      "change_pct": "0.81428",
       "currency": "USD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-07-08T23:59:00+00:00",
+      "updated_at": "2026-07-09T23:57:02+00:00",
       "status": "ok",
       "error": ""
     },
     {
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "symbol": "^IXIC",
       "name": "纳斯达克综合指数",
       "market": "美国",
       "type": "index",
       "role": "global_reference",
-      "close": "25870.652344",
-      "previous_close": "25818.689453",
-      "change": "51.962891",
-      "change_pct": "0.201261",
+      "close": "26206.890625",
+      "previous_close": "25870.650391",
+      "change": "336.240234",
+      "change_pct": "1.299698",
       "currency": "USD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-07-08T23:59:00+00:00",
+      "updated_at": "2026-07-09T23:57:02+00:00",
       "status": "ok",
       "error": ""
     },
@@ -147,7 +147,7 @@
     }
   ],
   "freshness": {
-    "latest_update": "2026-07-09T11:56:12+00:00",
+    "latest_update": "2026-07-09T23:57:02+00:00",
     "latest_market_date": "2026-07-09"
   }
 }
