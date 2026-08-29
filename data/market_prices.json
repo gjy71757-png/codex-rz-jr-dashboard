@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T03:56:47+00:00",
+  "generated_at": "2026-08-29T14:09:39+00:00",
   "status": {
-    "last_run_at": "2026-08-29T03:56:46+00:00",
+    "last_run_at": "2026-08-29T14:09:37+00:00",
     "provider": "yahoo_chart",
-    "group": "morning_global",
-    "ok_count": 2,
+    "group": "evening_asia",
+    "ok_count": 6,
     "error_count": 0,
     "errors": []
   },
@@ -56,7 +56,7 @@
       "change_pct": "1.125823",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-08-28T20:41:50+00:00",
+      "updated_at": "2026-08-29T14:09:37+00:00",
       "status": "ok",
       "error": ""
     },
@@ -73,7 +73,7 @@
       "change_pct": "1.499493",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-08-28T20:41:50+00:00",
+      "updated_at": "2026-08-29T14:09:37+00:00",
       "status": "ok",
       "error": ""
     },
@@ -90,7 +90,7 @@
       "change_pct": "-1.409417",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-08-28T20:41:50+00:00",
+      "updated_at": "2026-08-29T14:09:37+00:00",
       "status": "ok",
       "error": ""
     },
@@ -107,7 +107,7 @@
       "change_pct": "1.52992",
       "currency": "KRW",
       "provider": "yahoo_chart",
-      "updated_at": "2026-08-28T20:41:50+00:00",
+      "updated_at": "2026-08-29T14:09:37+00:00",
       "status": "ok",
       "error": ""
     },
@@ -124,7 +124,7 @@
       "change_pct": "-0.196462",
       "currency": "JPY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-08-28T20:41:50+00:00",
+      "updated_at": "2026-08-29T14:09:37+00:00",
       "status": "ok",
       "error": ""
     },
@@ -141,13 +141,13 @@
       "change_pct": "0.311127",
       "currency": "TWD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-08-28T20:41:50+00:00",
+      "updated_at": "2026-08-29T14:09:37+00:00",
       "status": "ok",
       "error": ""
     }
   ],
   "freshness": {
-    "latest_update": "2026-08-29T03:56:46+00:00",
+    "latest_update": "2026-08-29T14:09:37+00:00",
     "latest_market_date": "2026-08-28"
   }
 }
