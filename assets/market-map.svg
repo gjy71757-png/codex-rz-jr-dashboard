@@ -17,38 +17,38 @@
   </g>
   <g>
     <rect x="248" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="262" y="160" width="76" height="20" rx="6" fill="#1f8a5b" opacity="0.82"/>
+    <rect x="262" y="153" width="76" height="27" rx="6" fill="#b84a52" opacity="0.82"/>
     <text x="300.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">上证指数</text>
-    <text x="300.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+0.02%</text>
+    <text x="300.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-0.30%</text>
   </g>
   <g>
     <rect x="362" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="376" y="158" width="76" height="22" rx="6" fill="#1f8a5b" opacity="0.82"/>
+    <rect x="376" y="141" width="76" height="39" rx="6" fill="#b84a52" opacity="0.82"/>
     <text x="414.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">深证成指</text>
-    <text x="414.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+0.10%</text>
+    <text x="414.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-0.79%</text>
   </g>
   <g>
     <rect x="476" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="490" y="160" width="76" height="20" rx="6" fill="#1f8a5b" opacity="0.82"/>
+    <rect x="490" y="141" width="76" height="39" rx="6" fill="#b84a52" opacity="0.82"/>
     <text x="528.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">创业板指</text>
-    <text x="528.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+0.01%</text>
+    <text x="528.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-0.78%</text>
   </g>
   <g>
     <rect x="590" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="604" y="154" width="76" height="26" rx="6" fill="#1f8a5b" opacity="0.82"/>
+    <rect x="604" y="120" width="76" height="60" rx="6" fill="#1f8a5b" opacity="0.82"/>
     <text x="642.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">韩国综指</text>
-    <text x="642.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+0.26%</text>
+    <text x="642.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+1.64%</text>
   </g>
   <g>
     <rect x="704" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="718" y="156" width="76" height="24" rx="6" fill="#b84a52" opacity="0.82"/>
+    <rect x="718" y="130" width="76" height="50" rx="6" fill="#1f8a5b" opacity="0.82"/>
     <text x="756.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">日经225</text>
-    <text x="756.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-0.17%</text>
+    <text x="756.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+1.26%</text>
   </g>
   <g>
     <rect x="818" y="74" width="104" height="106" rx="8" fill="#f6f7f4" stroke="#dadfd6"/>
-    <rect x="832" y="144" width="76" height="36" rx="6" fill="#b84a52" opacity="0.82"/>
+    <rect x="832" y="123" width="76" height="57" rx="6" fill="#1f8a5b" opacity="0.82"/>
     <text x="870.0" y="205" text-anchor="middle" font-size="12" fill="#2d332f">台湾加权</text>
-    <text x="870.0" y="226" text-anchor="middle" font-size="12" fill="#b84a52">-0.67%</text>
+    <text x="870.0" y="226" text-anchor="middle" font-size="12" fill="#1f8a5b">+1.51%</text>
   </g>
 </svg>
