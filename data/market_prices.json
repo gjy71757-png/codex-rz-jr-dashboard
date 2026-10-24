@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T01:14:20+00:00",
+  "generated_at": "2026-10-24T13:06:10+00:00",
   "status": {
-    "last_run_at": "2026-10-24T01:14:19+00:00",
+    "last_run_at": "2026-10-24T13:06:08+00:00",
     "provider": "yahoo_chart",
-    "group": "morning_global",
-    "ok_count": 2,
+    "group": "evening_asia",
+    "ok_count": 6,
     "error_count": 0,
     "errors": []
   },
@@ -50,13 +50,13 @@
       "market": "A股",
       "type": "index",
       "role": "domestic_reference",
-      "close": "3690.475342",
+      "close": "3690.475098",
       "previous_close": "3658.025879",
-      "change": "32.449463",
-      "change_pct": "0.887076",
+      "change": "32.449219",
+      "change_pct": "0.887069",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-10-23T14:03:17+00:00",
+      "updated_at": "2026-10-24T13:06:08+00:00",
       "status": "ok",
       "error": ""
     },
@@ -67,13 +67,13 @@
       "market": "A股",
       "type": "index",
       "role": "domestic_reference",
-      "close": "11673.826172",
+      "close": "11673.830078",
       "previous_close": "11357.320312",
-      "change": "316.505859",
-      "change_pct": "2.786801",
+      "change": "316.509766",
+      "change_pct": "2.786835",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-10-23T14:03:17+00:00",
+      "updated_at": "2026-10-24T13:06:08+00:00",
       "status": "ok",
       "error": ""
     },
@@ -90,7 +90,7 @@
       "change_pct": "4.159887",
       "currency": "CNY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-10-23T14:03:17+00:00",
+      "updated_at": "2026-10-24T13:06:08+00:00",
       "status": "ok",
       "error": ""
     },
@@ -107,7 +107,7 @@
       "change_pct": "0.298707",
       "currency": "KRW",
       "provider": "yahoo_chart",
-      "updated_at": "2026-10-23T14:03:17+00:00",
+      "updated_at": "2026-10-24T13:06:08+00:00",
       "status": "ok",
       "error": ""
     },
@@ -124,7 +124,7 @@
       "change_pct": "-0.341261",
       "currency": "JPY",
       "provider": "yahoo_chart",
-      "updated_at": "2026-10-23T14:03:17+00:00",
+      "updated_at": "2026-10-24T13:06:08+00:00",
       "status": "ok",
       "error": ""
     },
@@ -141,13 +141,13 @@
       "change_pct": "-1.805033",
       "currency": "TWD",
       "provider": "yahoo_chart",
-      "updated_at": "2026-10-23T14:03:17+00:00",
+      "updated_at": "2026-10-24T13:06:08+00:00",
       "status": "ok",
       "error": ""
     }
   ],
   "freshness": {
-    "latest_update": "2026-10-24T01:14:19+00:00",
+    "latest_update": "2026-10-24T13:06:08+00:00",
     "latest_market_date": "2026-10-23"
   }
 }
